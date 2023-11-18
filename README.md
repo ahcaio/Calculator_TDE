@@ -1,5 +1,5 @@
 # Calculator_TDE
-
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ahcaio/Calculator_TDE/blob/main/LICENSE) 
 # Sobre o projeto
 
 Este projeto é uma aplicação de calculadora desenvolvida para dispositivos iOS utilizando a linguagem de programação Swift e o ambiente de desenvolvimento Xcode. 
