@@ -25,7 +25,12 @@ git clone https://github.com/ahcaio/Calculator_TDE.git
 # Autores
 
 - Caio Cesar Alves de Limeira
-- Daniel Gondim
-- Eduardo Mendes
-
 https://www.linkedin.com/in/devcaio/
+
+- Daniel Gondim
+https://www.linkedin.com/in/danielgondim/
+
+- Eduardo Mendes
+https://www.linkedin.com/in/eduardo-mendes-nunes-778664163/
+
+
