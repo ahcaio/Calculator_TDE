@@ -13,6 +13,7 @@
 		252488B92B02ED09005ACBCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252488B72B02ED09005ACBCE /* Main.storyboard */; };
 		252488BB2B02ED0A005ACBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252488BA2B02ED0A005ACBCE /* Assets.xcassets */; };
 		252488BE2B02ED0A005ACBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252488BC2B02ED0A005ACBCE /* LaunchScreen.storyboard */; };
+		25BCBAF22B095B68000F2AB3 /* Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BCBAF12B095B68000F2AB3 /* Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		252488BA2B02ED0A005ACBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252488BD2B02ED0A005ACBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		252488BF2B02ED0A005ACBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BCBAF12B095B68000F2AB3 /* Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		252488B02B02ED09005ACBCE /* Calculator_TDE */ = {
 			isa = PBXGroup;
 			children = (
+				25BCBAF02B095B5A000F2AB3 /* Assets */,
 				252488B12B02ED09005ACBCE /* AppDelegate.swift */,
 				252488B32B02ED09005ACBCE /* SceneDelegate.swift */,
 				252488B52B02ED09005ACBCE /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				252488BF2B02ED0A005ACBCE /* Info.plist */,
 			);
 			path = Calculator_TDE;
+			sourceTree = "<group>";
+		};
+		25BCBAF02B095B5A000F2AB3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				25BCBAF12B095B68000F2AB3 /* Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				252488BE2B02ED0A005ACBCE /* LaunchScreen.storyboard in Resources */,
 				252488BB2B02ED0A005ACBCE /* Assets.xcassets in Resources */,
+				25BCBAF22B095B68000F2AB3 /* Simulator Screenshot - iPhone 15 - 2023-11-18 at 17.47.18.png in Resources */,
 				252488B92B02ED09005ACBCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
