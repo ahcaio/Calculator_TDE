@@ -7,6 +7,8 @@ A calculadora fornece uma interface intuitiva e funcionalidade básica de cálcu
 
 ## Layout mobile
 
+<img src="https://github.com/ahcaio/Calculator_TDE/blob/main/Calculator_TDE/Assets/Simulator%20Screenshot%20-%20iPhone%2015%20-%202023-11-18%20at%2017.47.18.png" width="250px" />      
+
 # Tecnologias utilizadas
 - Swift 5.9
 - Xcode 15.0.1
