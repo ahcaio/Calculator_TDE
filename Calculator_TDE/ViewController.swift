@@ -30,10 +30,66 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equalsTap(_ sender: Any) {
-        let expression = NSExpression(format: workings)
-        let result = expression.expressionValue(with: nil, context: nil) as! Double
-        let resultString = formatResult(result: result)
-        calculatorResults.text = resultString
+        
+        if (validInput()){
+            let checkWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01")
+            let expression = NSExpression(format: checkWorkingsForPercent)
+            let result = expression.expressionValue(with: nil, context: nil) as! Double
+            let resultString = formatResult(result: result)
+            calculatorResults.text = resultString
+        } else {
+            let alert = UIAlertController(title: "Entrada inválida",
+                                          message: "Calculadora incapaz de fazer cálculos com base na entrada",
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
+    func validInput() -> Bool {
+        var count = 0
+        var funcCharIndexes = [Int]()
+        
+        for char in workings{
+            if (specialCharacter(char: char)) {
+                funcCharIndexes.append(count)
+            }
+            count += 1
+        }
+        
+        var previus:Int = -1
+        
+        for index in funcCharIndexes {
+            if(index == 0) {
+                return false
+            }
+            if(index == workings.count - 1) {
+                return false
+            }
+            if (previus != -1){
+                if (index - previus == 1){
+                    return false
+                }
+            }
+            previus = index
+        }
+        
+        return true
+    }
+    
+    func specialCharacter(char: Character) -> Bool{
+        if (char == "*") {
+            return true
+        }
+        if (char == "+") {
+            return true
+        }
+        if (char == "/") {
+            return true
+        } else {
+            return false
+        }
+        
     }
     
     func formatResult(result: Double) -> String{
@@ -73,7 +129,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func timesTap(_ sender: Any) {
-        addToWorkings(value: "×")
+        addToWorkings(value: "*")
 
     }
     

@@ -33,7 +33,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Lqg-Jx-ne3" secondAttribute="trailing" constant="20" id="RDy-6M-TyY"/>
                                     <constraint firstItem="oSJ-Dl-mn0" firstAttribute="leading" secondItem="Ie3-Ik-qzA" secondAttribute="leading" id="TrJ-LE-Ln6"/>
@@ -255,7 +255,7 @@
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="∙">
-                                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                                         </buttonConfiguration>
                                                         <connections>
                                                             <action selector="decimalTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yLQ-r5-RAz"/>
@@ -266,7 +266,7 @@
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="0">
-                                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
+                                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                                         </buttonConfiguration>
                                                         <connections>
                                                             <action selector="zeroTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yph-oe-h3N"/>
@@ -294,7 +294,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
