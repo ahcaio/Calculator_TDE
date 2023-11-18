@@ -20,10 +20,10 @@ Pré-requisitos: Xcode13, iOS 13
 # clonar repositório
 git clone https://github.com/ahcaio/Calculator_TDE.git
 ```
-# Autor
+# Autores
 
-Caio Cesar Alves de Limeira
-Daniel Gondim
-Eduardo Mendes
+- Caio Cesar Alves de Limeira
+- Daniel Gondim
+- Eduardo Mendes
 
 https://www.linkedin.com/in/devcaio/
